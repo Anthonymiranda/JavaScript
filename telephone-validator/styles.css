@@ -1,0 +1,48 @@
+body {
+  background-color: gray;
+  color: white;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+#phone-wrapper {
+  background-color: blueviolet;
+  border: 1px solid black;
+  text-align: center;
+  width: fit-content;
+  padding: 1.1rem 1.1rem;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+#phoneScreen {
+  background-color: rgb(153, 129, 153);
+  padding: 0.4rem 0.4rem;
+}
+label {
+  display: block;
+  padding: 0 0 0.5rem 0;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#results-div {
+  min-height: 250px;
+  display: block;
+}
+p {
+  display: block;
+  padding: 0;
+}
+button {
+  font-size: medium;
+  box-shadow: 1px 1px 1px 1px rgb(111, 34, 182);
+  margin-top: 0.3rem;
+}
