@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Moogle's Cash Register</title>
+  </header>
+  <body>
+    <h1>Moogle's Cash Register</h1>
+    <section id="afterHero">
+      <div id="change-due" aria-label="change due"></div>
+      <label for="cash" name="cash">Enter cash from customer:</label>
+      <input type="number" id="cash" name="cash" />
+      <button id="purchase-btn">Purchase</button>
+    </section>
+    <p class="price">Total: $</p>
+    <div id="drawerConnection"></div>
+    <section class="drawerBody">
+      <div id="drawerButtons">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div id="changeWrapper">
+        <p>Change in drawer:</p>
+        <p>Pennies: $<span></span></p>
+        <p>Nickels: $<span></span></p>
+        <p>Dimes: $<span></span></p>
+        <p>Quarters: $<span></span></p>
+        <p>Ones: $<span></span></p>
+        <p>Fives: $<span></span></p>
+        <p>Tens: $<span></span></p>
+        <p>Twenties: $<span></span></p>
+        <p>Hundreds: $<span></span></p>
+      </div>
+    </section>
+    <div id="drawerStand"><div></div></div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
